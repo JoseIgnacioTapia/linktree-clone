@@ -1,4 +1,8 @@
-import { HashRouter, Link, Switch } from 'react-router-dom';
+import { HashRouter, Link, Switch, Route } from 'react-router-dom';
+import Home from '../pages/Home';
+import Links from './Links';
+import SignUp from '../pages/SignUp';
+import LogIn from '../pages/LogIn';
 
 const Linktree = () => {
   return (
@@ -27,6 +31,12 @@ const Linktree = () => {
           </svg>
         </Link>
       </nav>
+
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/signup" component={SignUp} />
+        <Route exact path="/login" component={LogIn} />
+      </Switch>
     </HashRouter>
   );
 };
