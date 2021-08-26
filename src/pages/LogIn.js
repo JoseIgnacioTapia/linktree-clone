@@ -1,7 +1,9 @@
+import SignInForm from '../components/SignInForm';
+
 const LogIn = () => {
   return (
     <div>
-      <h2>Sign in to your Linktree account</h2>
+      <SignInForm />
     </div>
   );
 };

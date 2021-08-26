@@ -1,13 +1,19 @@
 import { HashRouter, Link, Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
-import Links from './Links';
 import SignUp from '../pages/SignUp';
 import LogIn from '../pages/LogIn';
 
+import styled from 'styled-components';
+
 const Linktree = () => {
+  const Nav = styled.nav`
+    padding: 24px 48px;
+    position: sticky;
+  `;
+
   return (
     <HashRouter>
-      <nav>
+      <Nav>
         <Link to="/">
           <svg
             style={{ width: 'calc(85px)', height: 'calc(20px)' }}
@@ -30,7 +36,7 @@ const Linktree = () => {
             </a>
           </svg>
         </Link>
-      </nav>
+      </Nav>
 
       <Switch>
         <Route exact path="/" component={Home} />

@@ -3,10 +3,9 @@ import Linktree from './components/Linktree';
 
 function App() {
   return (
-    <>
-      <h1>Linktree Clone</h1>
+    <div className="container-app">
       <Linktree />
-    </>
+    </div>
   );
 }
 
