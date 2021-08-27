@@ -2,6 +2,7 @@ import { HashRouter, Link, Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import SignUp from '../pages/SignUp';
 import LogIn from '../pages/LogIn';
+import Error404 from '../pages/Error404';
 
 import styled from 'styled-components';
 
@@ -42,6 +43,7 @@ const Linktree = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/signup" component={SignUp} />
         <Route exact path="/login" component={LogIn} />
+        <Route path="*" component={Error404} />
       </Switch>
     </HashRouter>
   );
