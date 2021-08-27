@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import moduleStyles from '../styles/ButtonStart.module.css';
 
 const Container = styled.div`
   padding: 64px 0;
@@ -45,7 +46,11 @@ const SignInForm = () => {
             onChange={e => setPassword(e.target.value)}
           />
           <Link to="/admin">
-            <input type="submit" value="Sign in" />
+            <input
+              className={moduleStyles.buttonStart}
+              type="submit"
+              value="Sign In"
+            />
           </Link>
         </form>
       </FormContainer>
