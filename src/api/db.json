@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 100,
+      "usernamname": "Nachoman907",
+      "password": "12345",
+      "website": "https://joseignaciotapia.github.io/",
+      "LinkedIn": "https://www.linkedin.com/in/jose-ignacio-tapia/",
+      "GitHub": "https://github.com/JoseIgnacioTapia",
+      "Instagram": "https://www.instagram.com/nchmn907/"
+    },
+    {
+      "id": 200,
+      "username": "Javo",
+      "password": "dfbfbvvdf",
+      "LinkedIn": "https://www.linkedin.com/in/javo/",
+      "GitHub": "https://github.com/Javo",
+      "Instagram": "https://www.instagram.com/Javo/"
+    },
+    {
+      "id": 300,
+      "username": "Agus",
+      "password": "43freg",
+      "LinkedIn": "https://www.linkedin.com/in/Agus/",
+      "GitHub": "https://github.com/Agus",
+      "Instagram": "https://www.instagram.com/Agus/"
+    }
+  ]
+}

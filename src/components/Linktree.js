@@ -1,4 +1,4 @@
-import { HashRouter, Link, Switch, Route, Redirect } from 'react-router-dom';
+import { HashRouter, Link, Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import SignUp from '../pages/SignUp';
 import LogIn from '../pages/LogIn';

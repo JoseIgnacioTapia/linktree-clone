@@ -1,15 +1,18 @@
 import { useState } from 'react';
 import './App.css';
 import Linktree from './components/Linktree';
+import UserProvider from './context/UserContext';
 
 function App() {
   const [usercheck, setUsercheck] = useState(null);
   const [passwordcheck, setPasswordcheck] = useState(null);
 
   return (
-    <div className="container-app">
-      <Linktree />
-    </div>
+    <UserProvider>
+      <div className="container-app">
+        <Linktree />
+      </div>
+    </UserProvider>
   );
 }
 
