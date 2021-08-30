@@ -25,7 +25,7 @@ const UserProvider = props => {
 
       getUser();
     }
-  }, [idUser]);
+  }, [idUser, consulting]);
 
   return (
     <UserContext.Provider value={{ setIdUser, user, setConsulting }}>

@@ -4,6 +4,7 @@ import SignUp from '../pages/SignUp';
 import LogIn from '../pages/LogIn';
 import Admin from '../pages/Admin';
 import PrivateRoute from './PrivateRoute';
+import UserLinktree from '../pages/UserLinktree';
 import Error404 from '../pages/Error404';
 
 import styled from 'styled-components';
@@ -43,6 +44,7 @@ const Linktree = () => {
         <Route exact path="/signup" component={SignUp} />
         <Route exact path="/login" component={LogIn} />
         <PrivateRoute exact path="/admin" component={Admin} />
+        <Route exact path="/Nachoman907" component={UserLinktree} />
         <Route path="*" component={Error404} />
       </Switch>
     </HashRouter>
