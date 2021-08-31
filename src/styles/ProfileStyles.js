@@ -22,3 +22,14 @@ export const ContainerLinks = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
+export const NameTitle = styled.h1`
+  /* color: rgb(255,255,255); */
+  color: #333;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+`;
