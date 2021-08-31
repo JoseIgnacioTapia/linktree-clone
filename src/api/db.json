@@ -4,10 +4,12 @@
       "id": 100,
       "username": "Nachoman907",
       "password": "12345",
+      "fullname": "José Ignacio Tapia",
       "website": "https://joseignaciotapia.github.io/",
       "LinkedIn": "https://www.linkedin.com/in/jose-ignacio-tapia/",
       "GitHub": "https://github.com/JoseIgnacioTapia",
-      "Instagram": "https://www.instagram.com/nchmn907/"
+      "Instagram": "https://www.instagram.com/nchmn907/",
+      "image": "https://i.imgur.com/rFbzo4t.png"
     },
     {
       "id": 200,
