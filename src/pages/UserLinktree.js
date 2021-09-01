@@ -7,6 +7,9 @@ import {
 } from '../styles/ProfileStyles';
 import LinkCard from '../components/LinkCard';
 import imageweb from '../images/browser.svg';
+import imgLinkedIn from '../images/brand-linkedin.svg';
+import imgGithub from '../images/brand-github.svg';
+import imgInsta from '../images/brand-instagram.svg';
 
 const UserLinktree = () => {
   const { user } = useContext(UserContext);
@@ -17,10 +20,9 @@ const UserLinktree = () => {
       <ImageProfile src={image} alt="profile" />
       <NameTitle>{fullname}</NameTitle>
       <LinkCard src={website} srcimage={imageweb} type={'WebSite'} />
-      <h3>{website}</h3>
-      <h3>{LinkedIn}</h3>
-      <h3>{GitHub}</h3>
-      <h3>{Instagram}</h3>
+      <LinkCard src={LinkedIn} srcimage={imgLinkedIn} type={'LinkedIn'} />
+      <LinkCard src={GitHub} srcimage={imgGithub} type={'GitHub'} />
+      <LinkCard src={Instagram} srcimage={imgInsta} type={'Instagram'} />
     </ContainerLinks>
   );
 };
