@@ -5,7 +5,9 @@ const LinkCard = ({ type, src, srcimage }) => {
   return (
     <CardContainer>
       <img src={srcimage} alt="icon" />
-      <Ahref src={src}>{type}</Ahref>
+      <Ahref href={src} target="_blank">
+        {type}
+      </Ahref>
     </CardContainer>
   );
 };
